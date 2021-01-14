@@ -1,0 +1,5 @@
+<h2>{{title}}</h2>
+<div  class="move" *ngFor="let move of moves">
+<h4>Transfered to {{move.to}} {{move.amount}} Dollars, at {{move.at|date:'short'}}</h4>
+    
+</div>

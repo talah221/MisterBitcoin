@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 35px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+    border-bottom: 2px groove black;
+}

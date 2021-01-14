@@ -1,0 +1,13 @@
+<div class="contact-details" *ngIf="contact">
+    <div class="controls">
+        <img class="goback" src="../../../assets/img/back.png" (click)="goBack()" />
+        <img class="edit-img" src="../../../assets/img/edit.png" (click)="goToEdit()" alt="Click to edit">
+        <img src="../../../assets//img/delete.png" alt="Click to Delete" (click)="onRemove()">
+    </div>
+    <div class="txt"><span>Name: </span>{{contact.name}}</div>
+    <div class="txt"><span>Email: </span>{{contact.email}}</div>
+    <div class="txt"><span>Phone: </span>{{contact.phone}}</div>
+    <img [src]="getImg" />
+</div>
+<app-transfer [toUser]="contact"></app-transfer>
+<!-- <app-moveslist [title]="getTitle()" [moves]="getMoves()"></app-moveslist> -->

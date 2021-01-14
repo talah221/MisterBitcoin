@@ -1,0 +1,7 @@
+<div>
+    <h2>Welcome, {{user.name}}</h2>
+    <h3>Dollars Left: {{user.coins | currency:'USD'}} | </h3>
+    <h3>Bitcoins Left: {{userBitcoins | currency:'BTC'}}  ({{userBitcoins | number}})</h3>
+
+</div>
+<app-moveslist *ngIf="user.moves.length"  title="Last Moves:" [moves]="user.moves"></app-moveslist>
