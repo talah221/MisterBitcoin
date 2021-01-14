@@ -5,7 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This Project includes NgRx, RxJs, Angular Animations, Angular Forms toastr, SASS, JSON-Server.
 
 ## Development server
-1.Run "json-server --watch db.json --id=_id"
+###
+1. Run "json-server --watch db.json --id=_id"
+###
 2. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
